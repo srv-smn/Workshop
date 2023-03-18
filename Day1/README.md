@@ -80,6 +80,9 @@ Through consensus algorithms reliability is achieved  in the Blockchain network 
 - PROOF OF WORK
 - PROOF OF STAKE
 
+## Let's play around with BLOCKCHAIN
+[BLOCKCHAIN DEMO](https://andersbrownworth.com/blockchain/blockchain)
+
 ## Why Blockchain?
 - Decentralized System:  Decentralized nature of blockchain make the resources shared to everyone, as it does not store its information at any central location but the blockchain is copied and spread across a network of computers.
 - Security: Even in today’s era digitalization we are facing a lot of password related threats, data tampering, unauthorized access. The numerous cases of data leaks that has shaken the trust of the people at a large extent. But the blockchain technology is creating trust in an untrusting ecosystem, making it a potentially strong cybersecurity technology.
