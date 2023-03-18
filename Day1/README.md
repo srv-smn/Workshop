@@ -80,6 +80,20 @@ Through consensus algorithms reliability is achieved  in the Blockchain network 
 - PROOF OF WORK
 - PROOF OF STAKE
 
+## Why Blockchain?
+- Decentralized System:  Decentralized nature of blockchain make the resources shared to everyone, as it does not store its information at any central location but the blockchain is copied and spread across a network of computers.
+- Security: Even in today’s era digitalization we are facing a lot of password related threats, data tampering, unauthorized access. The numerous cases of data leaks that has shaken the trust of the people at a large extent. But the blockchain technology is creating trust in an untrusting ecosystem, making it a potentially strong cybersecurity technology.
+- Transparency: There is a lack of trust between companies and consumers in sharing their personal data. There is no involvement of participants so that they know no tampering has been done with the data. But in the case of blockchain everything is visible to all the participants from the beginning till date.
+- No intermediaries: Blockchain has efficiently eliminate the role of  intermediaries by removing the need of central authority.
+
+## Let me ask you guys a few question.
+
+- How much sure you are about the wine you drink is labeled as a fair trade product?
+- Are you sure about the identity of a person you meet online is legit?
+- Is the healthcare insurance company sure about that the person is not suffering from any diseases by just looking at the medical reports? What if it’s tampered?
+- Are you sure that even after providing multi factor authorization your data is secured?
+- Are you sure that the donations you are giving for a charity purpose are really reaching to the right person?
+- Are you sure if no one is reading your chats, accessing you data , listening to your calls except you and the other person?
 
 
-
+If you are sure about the every question I asked then definitely you are lying. Isn’t? And what if I tell you blockchain resolves all these problems even more that that? Let me assure you that it does. In order to be 100% sure you need to take a ride of this blockchain journey with me .
