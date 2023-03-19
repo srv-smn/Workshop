@@ -6,6 +6,7 @@
 ## ERC20 interface
 
 `
+
 interface IERC20 {
     function totalSupply() external view returns (uint);
 
@@ -26,11 +27,13 @@ interface IERC20 {
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
 }
+
 `
 
 ## implementing IERC20
 
 `
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 contract ERC20 is IERC20 {
@@ -78,6 +81,7 @@ contract ERC20 is IERC20 {
         emit Transfer(msg.sender, address(0), amount);
     }
 }
+
 
 `
 
