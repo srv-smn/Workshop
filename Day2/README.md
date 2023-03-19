@@ -10,7 +10,8 @@
 ## Introductin to Solidity
 
 ### Doc
-[https://docs.soliditylang.org/en/v0.8.19/](Official Doc)
+[Official Doc](https://docs.soliditylang.org/en/v0.8.19/)
+
 
 ### Sample Contract
 
@@ -80,20 +81,30 @@ uint score = 5;
 You can also specify the number of bits, by range of 8 bits. Here are some examples below:
 <img width="364" alt="image" src="https://user-images.githubusercontent.com/47235134/226115578-d0462425-fa51-4a62-bb4b-b405e3ac3658.png">
 
+
 `int` : defines an signed integer of 256 bits by default.
 
 `Address` : Holds a 20 byte value (size of an Ethereum address).
+
 `address a = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;`
 
 ## Getter and Setter
 ` contract Score {
+
 uint score = 5;
+
 function getScore() returns (uint) {
+
 return score;
+
 }
+
 function setScore(uint new_score) {
+
 score = new_score;
+
 }
+
 }
 `
 
@@ -108,8 +119,11 @@ for computation (like mathematical operations).
 Because our function getScore() only reads from the contract state, it is a view function.
 `
 function getScore() public view returns (uint) {
+
 return score;
-} `
+
+} 
+`
 
 ## Extra Info
 Solidity provides a global variable msg , that refers to the address that interacts with the
@@ -125,15 +139,25 @@ functions in Solidity. It is mostly used to automatically check a condition befo
 function.
 
 `
+
 address owner;
+
 modifier onlyOwner {
+
 if (msg.sender == owner) {
+
 _;
+
 }
+
 }
+
 function setScore(uint new_score) public onlyOwner {
+
 score = new_score;
+
 }
+
 `
 
 The modifier works with the following flow:
@@ -145,19 +169,29 @@ requires the caller to send a specific amount of Ether.
 
 `
 modifier Fee(uint fee) {
+
 if (msg.value == fee) {
+
 _;
+
 }
+
 }
 `
 
 ## Constructor
 
-` contract Score {
+` 
+contract Score {
+
 address owner;
+
 constructor() {
+
 owner = msg.sender;
+
 }
+
 } `
 
 ## Advance Data Types
@@ -180,8 +214,11 @@ associated to a specific user’s address.
 
 `
 mapping(address => uint) score_list;
+
 function getUserScore(address user) public view returns (uint) {
+
 return score_list[user];
+
 }
 `
 
@@ -214,9 +251,13 @@ the structure.
 For example:
 
 `
+
 struct Funder {
+
 address addr;
+
 uint amount;
+
 } `
 
 Here we have created a datatype called Funder, that is composed of an address and a uint.
