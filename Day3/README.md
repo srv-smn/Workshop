@@ -33,9 +33,6 @@ interface IERC20 {
 `
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
-import "./IERC20.sol";
-
 contract ERC20 is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
