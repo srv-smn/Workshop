@@ -89,7 +89,7 @@ You can also specify the number of bits, by range of 8 bits. Here are some examp
 `address a = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;`
 
 ## Getter and Setter
-`contract Score {
+` contract Score {
 
 uint score = 5;
 
@@ -105,7 +105,7 @@ score = new_score;
 
 }
 
-}`
+} `
 
 ## Function visibility
 <img width="721" alt="image" src="https://user-images.githubusercontent.com/47235134/226148568-93f00f09-b782-4501-8715-70000a8586cc.png">
