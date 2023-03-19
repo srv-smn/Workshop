@@ -90,12 +90,19 @@ You can also specify the number of bits, by range of 8 bits. Here are some examp
 
 ## Getter and Setter
 ` contract Score {
+ 
 uint score = 5;
+ 
 function getScore() returns (uint) {
+ 
 return score;
+ 
 }
+ 
 function setScore(uint new_score) {
+ 
 score = new_score;
+ 
 }
 } `
 
