@@ -53,7 +53,7 @@ contract realstate {
         require(msg.sender == seller, "You are not seller.");
         erc721.transferFrom(msg.sender, address(this), nftid);
         started = true;
-        endtime = block.timestamp + 2 days;
+        endtime = block.timestamp + 900;
 
         // endtime
         // transfer NFT
@@ -79,7 +79,7 @@ contract realstate {
 
     function withdraw() external {
         // token transer to user
-        require(highestBidder != msg.sender, "highestBidder");
+        
         uint256 bal = bids[msg.sender];
         bids[msg.sender] = 0;
         erc20.transfer(msg.sender, bal);
